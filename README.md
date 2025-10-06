@@ -1,5 +1,7 @@
 # Analyse-des-vente-de-jeux-videos
 
-Dans ce code, je vais apprendre à charger et filtrer un datraset (sur les ventes des jeux videos) et à interpéter un graphique de corrélation.
+Ce programme lit le fichier CSV "steam-200k.csv" qui contient des données steam et calcule:
+1. Le top 5 des jeux les plus achetés
+2. Le top 5 des jeux les plus joués (en heures cumulées)
 
-L'objectif serait de faire une base sur l'analyse d'une base de données afin de pouvoir dans le futur faire de l'analyse de big datas plus complexes.
+Pour l'instant, le script n'utilise que la bibliothèque classique CSV mais j'aimerais y ajouter la bibliothèque "matplotlib" afin de réaliser des graphiques et rendre ces donées plus visibles.
